@@ -1,0 +1,11 @@
+# Archivos backup
+*~
+
+# Archivos IDE'S
+
+# NETBEANS
+build.xml
+manifest.mf
+/nbproject
+/build/
+/dist/
