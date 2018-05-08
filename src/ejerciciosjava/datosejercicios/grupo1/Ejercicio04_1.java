@@ -4,6 +4,9 @@
 package ejerciciosjava.datosejercicios.grupo1;
 
 import ejerciciosjava.datosejercicios.Ejercicio;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  * Describe y implanta el ejercicio 4 del grupo 1
@@ -21,25 +24,37 @@ public class Ejercicio04_1 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio04_1() {
-		super(4, 1, "Ejercicio basico 4", "Tiene que hacer muchas cosas que corresponden al ejercicio 4 del grupo basico");
+		super(
+				4,
+				1,
+				"Ej. 4 Área de un círculo",
+				"EJERCICIO BÁSICO 4\n\n"
+						+ "Haz una aplicación que calcule el área de un círculo(pi*R2)."
+						+ " El radio se pedirá por teclado (recuerda pasar de String a double con Double.parseDouble)."
+						+ " Usa la constante PI y el método pow de Math.");
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 4 del grupo 1");
+        double radio=Double.parseDouble(JOptionPane.showInputDialog("Introduce el radio: "));
+        JOptionPane.showMessageDialog(null, area(radio));
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 4 del grupo 1");
+		Scanner leer;
+		leer = new Scanner(System.in);
+		System.out.print("Introduce el radio: ");
+        double radio=leer.nextDouble();
+		System.out.print(area(radio));
 	}
-	
-	//METODOS PUBLICOS
 
 	//METODOS PRIVADOS
-
-	//METODOS ESTÁTICOS
+    private String area(double radio) {
+        DecimalFormat f = new DecimalFormat("#.00");
+        return "El área es " + f.format(  Math.PI * Math.pow(radio, 2)  );
+    }
 
 }

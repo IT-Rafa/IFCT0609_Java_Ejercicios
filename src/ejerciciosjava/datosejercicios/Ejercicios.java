@@ -7,6 +7,7 @@ import ejerciciosjava.datosejercicios.grupo1.*;
 import ejerciciosjava.datosejercicios.grupo2.*;
 import ejerciciosjava.datosejercicios.grupo3.*;
 import ejerciciosjava.datosejercicios.grupo4.*;
+import ejerciciosjava.datosejercicios.grupo5.*;
 
 /**
  * Se encarga de crear los objetos Ejercicio y sirve como almacen para todos los
@@ -21,7 +22,7 @@ public final class Ejercicios {
 
 	//ATRIBUTOS
 	private static final String[] LISTAGRUPOS = {
-		"1. Basicos", "2. Boletin", "3. Clases", "4. Swing"
+		"1. Basicos", "2. Boletin", "3. Clases", "4. Swing", "5. Guardar Datos"
 	};
 	public static final int VALORNULO=100;
 	private static final Ejercicio[][] TODOSEJERCICIOS = {
@@ -55,8 +56,7 @@ public final class Ejercicios {
 			new Ejercicio08_2(),
 			new Ejercicio09_2(),
 			new Ejercicio10_2(),
-			new Ejercicio11_2(),
-			new Ejercicio12_2()
+			new Ejercicio11_2()
 		},
 		{//grupo3
 			new Ejercicio0(),
@@ -65,13 +65,7 @@ public final class Ejercicios {
 			new Ejercicio03_3(),
 			new Ejercicio04_3(),
 			new Ejercicio05_3(),
-			new Ejercicio06_3(),
-			new Ejercicio07_3(),
-			new Ejercicio08_3(),
-			new Ejercicio09_3(),
-			new Ejercicio10_3(),
-			new Ejercicio11_3(),
-			new Ejercicio12_3()
+
 		},
 		{//grupo4 
 			new Ejercicio0(),
@@ -80,14 +74,30 @@ public final class Ejercicios {
 			new Ejercicio03_4(),
 			new Ejercicio04_4(),
 			new Ejercicio05_4(),
-			new Ejercicio06_4(),
 			new Ejercicio07_4(),
 			new Ejercicio08_4(),
 			new Ejercicio09_4(),
 			new Ejercicio10_4(),
 			new Ejercicio11_4(),
-			new Ejercicio12_4()
+			new Ejercicio12_4(),
+			new Ejercicio13_4(),
+			new Ejercicio14_4(),
+			new Ejercicio15_4(),
+			new Ejercicio16_4(),
+			new Ejercicio17_4(),
+			new Ejercicio18_4()
+			
+		},
+		{//grupo5
+			new Ejercicio0(),
+			new Ejercicio01_5(),
+			new Ejercicio02_5(),
+			new Ejercicio03_5(),
+			new Ejercicio04_5(),
+			new Ejercicio05_5()
+			
 		}
+		
 	};
 	//GETTER && SETTER
 

@@ -21,7 +21,14 @@ public class Ejercicio06_1 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio06_1() {
-		super(6, 1, "Ejercicio basico 6", "Tiene que hacer muchas cosas que corresponden al ejerdcicio 6 del grupo basico");
+		super(
+				6,
+				1,
+				"Ej. 6 Precio con IVA",
+				"EJERCICIO BÁSICO 6\n\n"
+						+ "Lee un número por teclado que pida el precio de un producto"
+						+ " (puede tener decimales) y calcule el precio final con IVA."
+						+ "\n El IVA sera una constante que sera del 21%");
 	}
 
 	//GETTER && SETTER

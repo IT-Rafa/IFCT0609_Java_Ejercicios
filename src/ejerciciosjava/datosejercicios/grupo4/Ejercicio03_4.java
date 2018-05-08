@@ -14,33 +14,37 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio03_4 extends Ejercicio{
+public class Ejercicio03_4 extends Ejercicio {
 
 	//ATRIBUTOS
-
 	//CONSTRUCTOR
-
 	public Ejercicio03_4() {
-		super(3, 4, "Ejercicio Swing 3", "Tiene que hacer muchas cosas que corresponden al ejercicio 3 del grupo Swing");
+		super(
+				3,
+				4,
+				"Ej. 3 Área triángulo con fórmula Herón",
+				"EJERCICIO 3 SWING\n\n"
+				+ "Programar aplicación gráfica que al recibir los tres lados de un "
+				+ "triángulo, calcule y muestre su área aplicando la siguiente fórmula:\n"
+				+ "Área = Raíz cuadrada( aux * (aux-lado1)*(aux-lado2)*(aux-lado3) )"
+				+ "semiperímetro = Aux = (lado1+lado2+lado3) /2"
+				+ "\n\n (Ver carpeta enunciados para ver enunciados originales)");
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 3 del grupo 4");
+		VentanaEj3 inicio = new VentanaEj3();
+		inicio.setVisible(true);
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 3 del grupo 4");
+		System.out.println("Ejercicio Swing: Solo de Ventanas");
 	}
-	
+
 	//METODOS PUBLICOS
-
 	//METODOS PRIVADOS
-
 	//METODOS ESTÁTICOS
-
 }

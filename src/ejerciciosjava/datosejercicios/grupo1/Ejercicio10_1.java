@@ -13,15 +13,16 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio10_1 extends Ejercicio{
+public class Ejercicio10_1 extends Ejercicio {
 
 	//ATRIBUTOS
-
 	//CONSTRUCTOR
-
 	public Ejercicio10_1() {
-		super(10, 1, "Ejercicio basico 10", "Tiene que hacer muchas cosas que corresponden al ejercicio 10 del grupo basico");
+		super(10,
+				1,
+				"Ej. 10 Número primo",
+				"EJERCICIO BÁSICO 10\n\n"
+				+ "Pide un números por teclado e indica si es un números primo o no.");
 	}
 
 	//GETTER && SETTER
@@ -35,11 +36,8 @@ public class Ejercicio10_1 extends Ejercicio{
 	public void EjecutaCli() {
 		System.out.println("Ejecucion en consola del ejercicio 10 del grupo 1");
 	}
-	
+
 	//METODOS PUBLICOS
-
 	//METODOS PRIVADOS
-
 	//METODOS ESTÁTICOS
-
 }

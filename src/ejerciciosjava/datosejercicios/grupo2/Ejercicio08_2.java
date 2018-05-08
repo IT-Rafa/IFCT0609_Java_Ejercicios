@@ -22,7 +22,11 @@ public class Ejercicio08_2 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio08_2() {
-		super(8, 2, "Ejercicio boletin 8", "Tiene que hacer muchas cosas que corresponden al ejercicio 8 del grupo boletin");
+		super(
+				8,
+				2,
+				"Ej. 8 Comprobar carácter está en mayúsculas y dar error si es nº",
+				"Ej. 8 Comprobar carácter está en mayúsculas y dar error si es nº");
 	}
 
 	//GETTER && SETTER

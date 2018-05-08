@@ -4,6 +4,8 @@
 package ejerciciosjava.datosejercicios.grupo1;
 
 import ejerciciosjava.datosejercicios.Ejercicio;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  * Describe y implanta el ejercicio 2 del grupo 1
@@ -17,29 +19,54 @@ import ejerciciosjava.datosejercicios.Ejercicio;
 public class Ejercicio02_1 extends Ejercicio{
 
 	//ATRIBUTOS
-
+    private int n1;
+    private int n2;
 	//CONSTRUCTOR
 
 	public Ejercicio02_1() {
-		super(2, 1, "Ejercicio basico 2", "Tiene que hacer muchas cosas que corresponden al ejercicio 2 del grupo basico");
+		super(
+				2,
+				1,
+				"Ej. 2 Varias operaciones entre 2 números",
+				"EJERCICIO BÁSICO 3\n\n"
+						+ "Declara dos variables numéricas (con el valor que desees),"
+						+ " muestra por consola\n"
+						+ " la suma, resta, multiplicación, división y módulo (resto de la división).");
 	}
 
 	//GETTER && SETTER
+    private void setN1(int n1) {
+        this.n1 = n1;
+    }
+
+    private void setN2(int n2) {
+        this.n2 = n2;
+    }
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 2 del grupo 1");
+		
+		Scanner leer;
+		leer = new Scanner(System.in);
+		System.out.print("Introduce el primer número: ");
+		setN1(leer.nextInt());
+		System.out.print("Introduce el segundo número: ");
+		setN2(leer.nextInt());
+ 		System.out.print(calculos());
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 2 del grupo 1");
+		setN1(Integer.parseInt(JOptionPane.showInputDialog("Introduce el primer número: ")));
+        setN2 (Integer.parseInt(JOptionPane.showInputDialog("Introduce el segundo número: ")));
+        JOptionPane.showMessageDialog(null, calculos());
 	}
-	
-	//METODOS PUBLICOS
 
 	//METODOS PRIVADOS
+    private String calculos() {
+        return (n1 + " + " + n2 + " = " + (n1 + n2) + "\n" + n1 + " - " + n2 + " = " + (n1 - n2) + "\n"
+                + n1 + " x " + n2 + " = " + (n1 * n2) + "\n" + n1 + " / " + n2 + " = " + (n1 / n2) + " con resto " + (n1 % n2) + "\n");
+    }
 
-	//METODOS ESTÁTICOS
 
 }

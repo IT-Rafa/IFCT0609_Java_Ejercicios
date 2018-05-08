@@ -22,7 +22,11 @@ public class Ejercicio02_2 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio02_2() {
-		super(2, 2, "Ejercicio boletin 2", "Tiene que hacer muchas cosas que corresponden al ejercicio 2 del grupo boletin");
+		super(
+				2,
+				2,
+				"Ej. 2 Hallar longitud y área de circunferencia",
+				"Tiene que hacer muchas cosas que corresponden al ejercicio 2 del grupo boletin");
 	}
 
 	//GETTER && SETTER

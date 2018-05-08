@@ -22,7 +22,11 @@ public class Ejercicio05_2 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio05_2() {
-		super(5, 2, "Ejercicio boletin 5", "Tiene que hacer muchas cosas que corresponden al ejercicio 5 del grupo boletin");
+		super(
+				5,
+				2,
+				"Ej. 5 Dividir cifras de número y ponerlas al revés",
+				"Tiene que hacer muchas cosas que corresponden al ejercicio 5 del grupo boletin");
 	}
 
 	//GETTER && SETTER

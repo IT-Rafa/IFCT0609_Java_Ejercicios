@@ -23,8 +23,8 @@ public class Ejercicio01_1 extends Ejercicio {
 		super(
 				1,
 				1,
-				"Ejercicio basico 1",
-				"EJERCICIOS BASICO 1\n"
+				"Ej. 1 Bienvenida con nombre",
+				"EJERCICIOS BASICO 1\n\n"
 				+ "Declara un String que contenga tu nombre, "
 				+ "después muestra un mensaje de bienvenida por consola.\n"
 				+ "Por ejemplo: si introduzco \"Fernando\", me aparezca: "

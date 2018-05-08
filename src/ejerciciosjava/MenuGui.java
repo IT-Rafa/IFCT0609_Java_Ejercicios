@@ -64,7 +64,9 @@ public class MenuGui extends javax.swing.JFrame {
         });
 
         enunciadojTextArea.setColumns(20);
+        enunciadojTextArea.setLineWrap(true);
         enunciadojTextArea.setRows(5);
+        enunciadojTextArea.setWrapStyleWord(true);
         jScrollPane1.setViewportView(enunciadojTextArea);
 
         salirBoton.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N

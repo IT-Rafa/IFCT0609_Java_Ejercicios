@@ -13,15 +13,18 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio09_1 extends Ejercicio{
+public class Ejercicio09_1 extends Ejercicio {
 
 	//ATRIBUTOS
-
 	//CONSTRUCTOR
-
 	public Ejercicio09_1() {
-		super(9, 1, "Ejercicio basico 9", "Tiene que hacer muchas cosas que corresponden al ejercicio 9 del grupo basico");
+		super(
+				9,
+				1,
+				"Ej. 9 Día laboral",
+				"EJERCICIO BÁSICO 9\n\n"
+				+ "Crea una aplicación que nos pida un día de la semana y que nos diga si es un día laboral o no.\n"
+				+ "Usa un switch para ello.");
 	}
 
 	//GETTER && SETTER
@@ -35,11 +38,8 @@ public class Ejercicio09_1 extends Ejercicio{
 	public void EjecutaCli() {
 		System.out.println("Ejecucion en consola del ejercicio 9 del grupo 1");
 	}
-	
+
 	//METODOS PUBLICOS
-
 	//METODOS PRIVADOS
-
 	//METODOS ESTÁTICOS
-
 }

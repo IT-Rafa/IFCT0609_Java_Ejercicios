@@ -22,19 +22,27 @@ public class Ejercicio01_4 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio01_4() {
-		super(1, 4, "Ejercicio Swing 1", "Tiene que hacer muchas cosas que corresponden al ejercicio 1 del grupo Swing");
+		super(
+				1,
+				4,
+				"Ej. 1 Botones Cambio fondo rojo azul",
+				"EJERCICIO 1 SWING\n\n"
+						+ "Crear aplicación que muestre dos botones, 'rojo' y 'azul' de manera que "
+						+ "cada uno de ellos cambie el color del fondo del panel al indicado en el botón"
++ "\n\n (Ver carpeta enunciados para ver enunciados originales)");
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 1 del grupo 4");
-	}
+        VentanaEj1 inicio = new VentanaEj1();
+        inicio.setVisible(true);
+    }
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 1 del grupo 4");
+		System.out.println("Ejercicio Swing: Solo de Ventanas");
 	}
 	
 	//METODOS PUBLICOS

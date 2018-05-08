@@ -14,33 +14,39 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio04_4 extends Ejercicio{
+public class Ejercicio04_4 extends Ejercicio {
 
 	//ATRIBUTOS
-
 	//CONSTRUCTOR
-
 	public Ejercicio04_4() {
-		super(4, 4, "Ejercicio Swing 4", "Tiene que hacer muchas cosas que corresponden al ejercicio 4 del grupo Swing");
+		super(
+				4,
+				4,
+				"Ej. 4 Perímetro dadas tres coordenadas",
+				"EJERCICIO 4 SWING\n\n"
+				+ "Programar aplicación gráfica que reciba las coordenadas de tres"
+				+ "puntos que corresponden a los vértices de un triángulo y calcule su perímetro.\n"
+				+ "Datos: puntox1,puntox2,puntox3,puntoy1,puntoy2,puntoy3.\n"
+				+ "Consideraciones:\n"
+				+ "a. Para calcular la distancia de dos puntos dados, aplicar la siguiente formula:\n"
+				+ "d = √( ( x1 - x2 )² + ( y1 - y2 )² )"
+				+ "\n\n (Ver carpeta enunciados para ver enunciados originales)");
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 4 del grupo 4");
+		VentanaEj4 inicio = new VentanaEj4();
+		inicio.setVisible(true);
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 4 del grupo 4");
+		System.out.println("Ejercicio Swing: Solo de Ventanas");
 	}
-	
+
 	//METODOS PUBLICOS
-
 	//METODOS PRIVADOS
-
 	//METODOS ESTÁTICOS
-
 }

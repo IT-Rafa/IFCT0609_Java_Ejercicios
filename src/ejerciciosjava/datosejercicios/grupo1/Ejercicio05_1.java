@@ -4,6 +4,8 @@
 package ejerciciosjava.datosejercicios.grupo1;
 
 import ejerciciosjava.datosejercicios.Ejercicio;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  * Describe y implanta el ejercicio 5 del grupo 1
@@ -13,33 +15,41 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio05_1 extends Ejercicio{
+public class Ejercicio05_1 extends Ejercicio {
 
 	//ATRIBUTOS
-
+	private final double IVA = 21;
 	//CONSTRUCTOR
 
 	public Ejercicio05_1() {
-		super(5, 1, "Ejercicio basico 5", "Tiene que hacer muchas cosas que corresponden al ejercicio 5 del grupo basico");
+		super(
+				5,
+				1,
+				"Ej. 5 Correspondencia ASCII",
+				"EJERCICIO BÁSICO 5\n\n"
+				+ "Lee un número por teclado y muestra por consola, el carácter al que pertenece en la tabla ASCII.\n"
+				+ "Por ejemplo: si introduzco un 97, me muestre una a.");
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 5 del grupo 1");
+		int cod = Integer.parseInt(JOptionPane.showInputDialog("Introduce el código: "));
+		JOptionPane.showMessageDialog(null, "El caracter correspondiente es : "
+				+ Character.getName(cod) + "\n\tEs decir: " + (char) cod);
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 5 del grupo 1");
+		Scanner leer;
+		leer = new Scanner(System.in);
+		System.out.print("Introduce el código: ");
+		int cod = leer.nextInt();
+		System.out.print("El caracter correspondiente es : "
+				+ Character.getName(cod) + "\n\tEs decir: " + (char) cod);
+
 	}
-	
+
 	//METODOS PUBLICOS
-
-	//METODOS PRIVADOS
-
-	//METODOS ESTÁTICOS
-
 }

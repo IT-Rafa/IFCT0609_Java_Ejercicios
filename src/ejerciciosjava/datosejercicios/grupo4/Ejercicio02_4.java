@@ -14,33 +14,38 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio02_4 extends Ejercicio{
+public class Ejercicio02_4 extends Ejercicio {
 
 	//ATRIBUTOS
-
 	//CONSTRUCTOR
-
 	public Ejercicio02_4() {
-		super(2, 4, "Ejercicio Swing 2", "Tiene que hacer muchas cosas que corresponden al ejercicio 2 del grupo Swing");
+		super(
+				2,
+				4,
+				"Ej. 2 Hallar área y volumen de cilindro",
+				"EJERCICIO 2 SWING\n\n"
+				+ "En entorno gráfico, la aplicación debe pedir radio y altura de un cilindro"
+				+ "y calcular y mostrar el área y volumen.\n"
+				+ "a. Volumen=PI * RADIO^2 * ALTURA\n"
+				+ "b. Área = 2 * PI * RADIO * ALTURA"
+				+ "\n\n (Ver carpeta enunciados para ver enunciados originales)");
+
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 2 del grupo 4");
+		VentanaEj2 inicio = new VentanaEj2();
+		inicio.setVisible(true);
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 2 del grupo 4");
+		System.out.println("Ejercicio Swing: Solo de Ventanas");
 	}
-	
+
 	//METODOS PUBLICOS
-
 	//METODOS PRIVADOS
-
 	//METODOS ESTÁTICOS
-
 }

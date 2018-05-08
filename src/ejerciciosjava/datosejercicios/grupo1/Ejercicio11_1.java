@@ -13,15 +13,16 @@ import ejerciciosjava.datosejercicios.Ejercicio;
  * @author it-rafa
  * @author Rafael Martínez - it.rafamartinez@gmail.com
  */
-
-public class Ejercicio11_1 extends Ejercicio{
+public class Ejercicio11_1 extends Ejercicio {
 
 	//ATRIBUTOS
-
 	//CONSTRUCTOR
-
 	public Ejercicio11_1() {
-		super(11, 1, "Ejercicio basico 11", "Tiene que hacer muchas cosas que corresponden al ejercicio 11 del grupo basico");
+		super(11,
+				1,
+				"Ej. 11 Números primos del 1 al 100",
+				"EJERCICIO BÁSICO 11\n\n"
+				+ "Muestra los números primos entre 1 y 100.");
 	}
 
 	//GETTER && SETTER
@@ -35,11 +36,8 @@ public class Ejercicio11_1 extends Ejercicio{
 	public void EjecutaCli() {
 		System.out.println("Ejecucion en consola del ejercicio 11 del grupo 1");
 	}
-	
+
 	//METODOS PUBLICOS
-
 	//METODOS PRIVADOS
-
 	//METODOS ESTÁTICOS
-
 }

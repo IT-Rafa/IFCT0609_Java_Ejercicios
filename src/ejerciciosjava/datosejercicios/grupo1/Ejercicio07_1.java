@@ -4,6 +4,7 @@
 package ejerciciosjava.datosejercicios.grupo1;
 
 import ejerciciosjava.datosejercicios.Ejercicio;
+import javax.swing.JOptionPane;
 
 /**
  * Describe y implanta el ejercicio 7 del grupo 1
@@ -21,25 +22,35 @@ public class Ejercicio07_1 extends Ejercicio{
 	//CONSTRUCTOR
 
 	public Ejercicio07_1() {
-		super(7, 1, "Ejercicio basico 7", "Tiene que hacer muchas cosas que corresponden al ejercicio 7 del grupo basico");
+		super(
+				7,
+				1,
+				"Ej. 7 Números divisibles por 2 y 3",
+				"EJERCICIO BÁSICO 7\n\n"
+						+ "Muestra los números del 1 al 100 (ambos incluidos) divisibles entre 2 y 3. Utiliza el bucle que desees.");
 	}
 
 	//GETTER && SETTER
 	//METODOS HEREDADOS
 	@Override
 	public void EjecutaGui() {
-		System.out.println("Ejecucion en ventana del ejercicio 7 del grupo 1");
+		JOptionPane.showMessageDialog(null,"Estos son los números del divisibles entre 2 y 3, hasta 100:\n" + divisibles2y3() );
 	}
 
 	@Override
 	public void EjecutaCli() {
-		System.out.println("Ejecucion en consola del ejercicio 7 del grupo 1");
+		System.out.println("Estos son los números del divisibles entre 2 y 3, hasta 100:\n" + divisibles2y3());
 	}
-	
-	//METODOS PUBLICOS
 
 	//METODOS PRIVADOS
-
-	//METODOS ESTÁTICOS
+	private String divisibles2y3(){
+	        String st="";
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0 && i % 3 == 0) {
+                st+=(i + " ");
+            }
+        }
+		return st;
+	}
 
 }
