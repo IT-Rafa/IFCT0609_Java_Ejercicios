@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Formatter;
+import java.util.GregorianCalendar;
 import java.util.Locale;
 
 /**
@@ -34,7 +35,20 @@ public abstract class Persona {
 	protected static int CANTPERSONAS;
 
 	//CONSTRUCTOR
-	public Persona(String dni, String nombre, String apellidos, Calendar fechaNacimiento, EstadoCivil estado,TipoEstudio estudioSuperior) {
+	public Persona() {
+		++Persona.CANTPERSONAS;
+		this.dni = "2222222-"+CANTPERSONAS;
+		this.nombre = "nombre"+CANTPERSONAS;
+		this.apellidos = "apellido"+CANTPERSONAS;
+		this.fechaNac = new GregorianCalendar(100,11,10);
+		this.estado = EstadoCivil.CASADO;
+		this.estudioSuperior = estudioSuperior;
+		this.direcciones.add(new Direccion("Calle", "Mentira", "0", "0º", "0", "0000"));
+		this.posDirPorDefecto = 0;
+		this.contactos.add(new Contacto(TipoContacto.TELEFONO, "000 00 00 00"));
+		this.posContactPorDefecto = 0;
+	}
+        	public Persona(String dni, String nombre, String apellidos, Calendar fechaNacimiento, EstadoCivil estado,TipoEstudio estudioSuperior) {
 		++Persona.CANTPERSONAS;
 		this.dni = dni;
 		this.nombre = nombre;
@@ -42,10 +56,8 @@ public abstract class Persona {
 		this.fechaNac = fechaNacimiento;
 		this.estado = estado;
 		this.estudioSuperior = estudioSuperior;
-		this.direcciones.add(new Direccion("Calle", "Moaña", "2", "5º", "A", "36210"));
-		this.posDirPorDefecto = 2;
-		this.contactos.add(new Contacto(TipoContacto.TELEFONO, "986 88 88 88"));
-		this.posContactPorDefecto = 1;
+		this.posDirPorDefecto = 0;
+		this.posContactPorDefecto = 0;
 	}
 
 	//GETTER&SETTER

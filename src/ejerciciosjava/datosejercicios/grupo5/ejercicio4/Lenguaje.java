@@ -11,28 +11,12 @@ package ejerciciosjava.datosejercicios.grupo5.ejercicio4;
  */
 public enum Lenguaje {
     JAVA {
-        @Override
-        public String toString() {
-            return "Java";
-        }
 
     }, C {
-        @Override
-        public String toString() {
-            return "C";
-        }
 
     }, CSHARP {
-        @Override
-        public String toString() {
-            return "C#";
-        }
 
     }, JAVASCRIPT {
-        @Override
-        public String toString() {
-            return "JavaScript";
-        }
 
     }
 }

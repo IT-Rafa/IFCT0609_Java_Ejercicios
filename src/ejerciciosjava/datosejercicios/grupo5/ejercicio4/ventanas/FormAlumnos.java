@@ -5,6 +5,8 @@
  */
 package ejerciciosjava.datosejercicios.grupo5.ejercicio4.ventanas;
 
+import ejerciciosjava.datosejercicios.grupo5.ejercicio4.Aula;
+
 /**
  *
  * @author it-ra
@@ -83,6 +85,11 @@ public class FormAlumnos extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
 
         jSplitPane1.setDividerLocation(400);
         jSplitPane1.setDividerSize(20);
@@ -494,6 +501,11 @@ public class FormAlumnos extends javax.swing.JFrame {
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+
+        
+    }//GEN-LAST:event_formWindowOpened
 
 	/**
 	 * @param args the command line arguments

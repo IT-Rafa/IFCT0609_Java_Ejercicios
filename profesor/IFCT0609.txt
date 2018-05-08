@@ -6,24 +6,19 @@ apellidos0
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -38,24 +33,19 @@ apellidos1
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -70,24 +60,19 @@ apellidos2
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -102,24 +87,19 @@ apellidos3
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -134,24 +114,19 @@ apellidos4
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -166,24 +141,19 @@ apellidos5
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -198,24 +168,19 @@ apellidos6
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -230,24 +195,19 @@ apellidos7
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -262,24 +222,19 @@ apellidos8
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
@@ -294,27 +249,57 @@ apellidos9
 10 de junio de 2000
 10 de junio de 2000
 SOLTERO
-Universidad
-1
-2
+UNIVERSIDAD
+0
+0
 --LENGUAJE--
+2
 C
-Java
+JAVA
 --CONTACTO--
-Teléfono: 
-986 88 88 88
+1
 E-Mail: 
 micorreo@gmail.com
 --DIRECCION--
-Calle
-Moaña
-2
-5º
-A
-36210
+1
 Avenida
 Castelao
 2
 4
 a
 36200
+--ALUMNO--
+100
+36.143.961-j
+Rafael
+Martínez Costas
+10 de junio de 2000
+10 de junio de 1900
+SOLTERO
+FP
+0
+0
+--LENGUAJE--
+2
+JAVA
+JAVASCRIPT
+--CONTACTO--
+2
+E-Mail: 
+rafa@gmail.com
+E-Mail: 
+otrorafacorreo@gmail.com
+--DIRECCION--
+2
+Calle
+Costa
+2
+4
+a
+36333
+Rua
+Costa2
+2
+4
+a
+362222

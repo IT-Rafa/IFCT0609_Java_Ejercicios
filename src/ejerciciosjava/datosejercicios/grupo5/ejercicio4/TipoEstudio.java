@@ -13,31 +13,19 @@ import javax.swing.JOptionPane;
  */
 public enum TipoEstudio {
     PRIMARIA{
-        @Override
-        public String toString() {
-            return "Primaria";
-        }
+
     
     },
     SECUNDARIA{
-        @Override
-        public String toString() {
-            return "Secundaria";
-        }
+
     
     },
     FP{
-        @Override
-        public String toString() {
-            return "F.P.";
-        }
+
     
     },
     UNIVERSIDAD{
-        @Override
-        public String toString() {
-            return "Universidad";
-        }
+
     
     },
 
